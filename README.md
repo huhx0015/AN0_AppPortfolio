@@ -1,3 +1,9 @@
+AN0_App_Portfolio
+==================
+
+DEVELOPER: Michael Yoon Huh (huhx0015)
+
+RUBRIC:
 
 Why this Project?
 
