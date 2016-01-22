@@ -1,7 +1,9 @@
 AN0_App_Portfolio
 ==================
 
-DEVELOPER: Michael Yoon Huh (huhx0015)
+DEVELOPER: Michael Yoon Huh
+
+![appportfolio](https://cloud.githubusercontent.com/assets/1645482/12525482/6f7b96c6-c119-11e5-9eb8-6e9951316a15.gif)
 
 RUBRIC:
 
@@ -17,7 +19,7 @@ The goals of this project are:
 How Will I Complete this Project?
 Supporting Course Material
 
-How to Install Android Studio
+How to Install Android Studio:
 
 Below is list of tasks for building your Portfolio App.
 
@@ -38,7 +40,7 @@ Required Tasks
 
     Feel free to use this mockup as a guide:
 
-Names of your Nanodegree apps
+Names of your Nanodegree apps:
 
     Spotify Streamer
     Super Duo (2 buttons: Football Scores App and Library App)
@@ -46,7 +48,7 @@ Names of your Nanodegree apps
     XYZ Reader
     Capstone
 
-Colors and Styles
+Colors and Styles:
 
 When designing your layout for the project portfolio, you may enjoy customizing the style and color of your buttons and changing the layout. If you are interested in learning about colors you can use, take a look at the material design color page, from Google.
 
@@ -58,7 +60,6 @@ If you'd like your app to look Udacious, feel free to use #F08C35 to match the o
 
   You should see a message like this whenever a button is clicked!
 
-Additional Support
+Additional Support:
 
 If you have any questions about the steps above, feel free to search the Udacity forums or start a discussion with your peers and coaches.
-
