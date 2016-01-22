@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="project_header_color">#009688</color>
+    <color name="toolbar_color">#3F51B5</color>
+    <color name="spotify_streamer_color">#26a69a</color>
+    <color name="alexandria_color">#4db6ac</color>
+    <color name="football_scores_color">#ff9800</color>
+    <color name="build_it_bigger_color">#669900</color>
+    <color name="xyz_reader_color">#ddbcee</color>
+    <color name="wearable_color">#cc0000</color>
+    <color name="capstone_color">#0099cc</color>
+</resources>

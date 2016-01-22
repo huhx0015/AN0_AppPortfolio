@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import com.huhx0015.appportfolio.intent.APIntent;
 import com.huhx0015.appportfolio.ui.APUnbind;
 import com.huhx0015.com.appportfolio.R;
@@ -58,9 +57,10 @@ public class APMainActivity extends AppCompatActivity {
         Button libraryButton = (Button) findViewById(R.id.library_app_button);
         Button biggerButton = (Button) findViewById(R.id.bigger_app_button);
         Button xyzButton = (Button) findViewById(R.id.xyz_app_button);
+        Button wearableButton = (Button) findViewById(R.id.wearable_button);
         Button capstoneButton = (Button) findViewById(R.id.capstone_button);
 
-        // SPOTIFY APP Button Listener: Launches the Spotify Streamer application.
+        // SPOTIFY STREAMER Button Listener: Launches the Spotify Streamer application.
         spotifyButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -69,25 +69,25 @@ public class APMainActivity extends AppCompatActivity {
             }
         });
 
-        // FOOTBALL APP Button Listener:
-        footballButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my Football Scores app!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        // LIBRARY APP Button Listener:
+        // ALEXANDRIA Button Listener:
         libraryButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my Library app!", Toast.LENGTH_SHORT).show();
+                APIntent.launchExternalIntent("it.jaschke.alexandria", APMainActivity.this);
             }
         });
 
-        // BIGGER APP Button Listener:
+        // FOOTBALL SCORES Button Listener:
+        footballButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                APIntent.launchExternalIntent("barqsoft.footballscores", APMainActivity.this);
+            }
+        });
+
+        // BUILD IT BIGGER APP Button Listener:
         biggerButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -96,12 +96,21 @@ public class APMainActivity extends AppCompatActivity {
             }
         });
 
-        // XYZ APP Button Listener:
+        // XYZ READER APP Button Listener:
         xyzButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 Toast.makeText(APMainActivity.this, "This button will launch my XYZ Reader app!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        // WEARABLE APP Button Listener:
+        wearableButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(APMainActivity.this, "This button will launch my Wearable app!", Toast.LENGTH_SHORT).show();
             }
         });
 

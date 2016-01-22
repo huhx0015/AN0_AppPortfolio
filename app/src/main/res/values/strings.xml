@@ -1,4 +1,24 @@
 <resources>
+
+    <!--APPLICATION STRINGS-->
     <string name="app_name">App Portfolio</string>
     <string name="action_settings">Settings</string>
+
+    <!--PROJECT HEADER STRINGS-->
+    <string name="project_12">Project 1-2</string>
+    <string name="project_3">Project 3</string>
+    <string name="project_4">Project 4</string>
+    <string name="project_5">Project 5</string>
+    <string name="project_6">Project 6</string>
+    <string name="project_7">Project 7</string>
+
+    <!--APPLICATION NAME STRINGS-->
+    <string name="an1_2">SPOTIFY STREAMER</string>
+    <string name="an3_1">ALEXANDRIA</string>
+    <string name="an3_2">FOOTBALL SCORES</string>
+    <string name="an4">BUILD IT BIGGER</string>
+    <string name="an5">XYZ READER</string>
+    <string name="an6">WEARABLE</string>
+    <string name="an7">CAPSTONE</string>
+
 </resources>
