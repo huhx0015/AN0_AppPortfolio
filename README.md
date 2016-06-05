@@ -4,7 +4,7 @@ AN0_App_Portfolio
 DEVELOPER: Michael Yoon Huh
 
 ### APP PORTFOLIO
-![appportfolio](https://cloud.githubusercontent.com/assets/1645482/12525482/6f7b96c6-c119-11e5-9eb8-6e9951316a15.gif)
+![appportfolio_preview](https://cloud.githubusercontent.com/assets/1645482/15803861/a8284ab2-2aa7-11e6-90b7-7c0b2ae646ed.png)
 
 # Description
 
