@@ -183,8 +183,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/project_7"
-                android:id="@+id/project_header_7"
+                android:text="@string/project_78"
+                android:id="@+id/project_header_78"
                 android:layout_marginBottom="4dp"
                 android:textStyle="bold"
                 android:textColor="@color/project_header_color" />
@@ -194,12 +194,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:id="@+id/project_7_container">
+                android:id="@+id/project_7_8_container" >
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/an7"
+                    android:text="@string/an7_8"
                     android:id="@+id/capstone_button"
                     android:background="@color/capstone_color"
                     android:textColor="@android:color/white"

@@ -2,6 +2,7 @@ package com.huhx0015.appportfolio.intent;
 
 import android.content.Context;
 import android.content.Intent;
+import android.widget.Toast;
 
 /** -----------------------------------------------------------------------------------------------
  *  [APMainActivity] CLASS
@@ -23,6 +24,8 @@ public class APIntent {
         if (intent != null) {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(intent);
+        } else {
+            Toast.makeText(context, "The requested application is not installed.", Toast.LENGTH_SHORT).show();
         }
     }
 }

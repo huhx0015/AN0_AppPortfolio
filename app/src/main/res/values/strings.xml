@@ -10,7 +10,7 @@
     <string name="project_4">Project 4</string>
     <string name="project_5">Project 5</string>
     <string name="project_6">Project 6</string>
-    <string name="project_7">Project 7</string>
+    <string name="project_78">Project 7-8</string>
 
     <!--APPLICATION NAME STRINGS-->
     <string name="an1_2">SPOTIFY STREAMER</string>
@@ -18,7 +18,7 @@
     <string name="an3_2">FOOTBALL SCORES</string>
     <string name="an4">BUILD IT BIGGER</string>
     <string name="an5">XYZ READER</string>
-    <string name="an6">WEARABLE</string>
-    <string name="an7">CAPSTONE</string>
+    <string name="an6">GO UBIQUITOUS</string>
+    <string name="an7_8">CAPSTONE</string>
 
 </resources>

@@ -87,39 +87,39 @@ public class APMainActivity extends AppCompatActivity {
             }
         });
 
-        // BUILD IT BIGGER APP Button Listener:
+        // BUILD IT BIGGER Button Listener:
         biggerButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my Build It Bigger app!", Toast.LENGTH_SHORT).show();
+                APIntent.launchExternalIntent("com.huhx0015.builditbigger", APMainActivity.this);
             }
         });
 
-        // XYZ READER APP Button Listener:
+        // XYZ READER Button Listener:
         xyzButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my XYZ Reader app!", Toast.LENGTH_SHORT).show();
+                APIntent.launchExternalIntent("com.huhx0015.xyzreader", APMainActivity.this);
             }
         });
 
-        // WEARABLE APP Button Listener:
+        // WEARABLE Button Listener:
         wearableButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my Wearable app!", Toast.LENGTH_SHORT).show();
+                APIntent.launchExternalIntent("com.example.android.sunshine", APMainActivity.this);
             }
         });
 
-        // CAPSTONE APP Button Listener:
+        // CAPSTONE Button Listener:
         capstoneButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(APMainActivity.this, "This button will launch my Capstone app!", Toast.LENGTH_SHORT).show();
+                APIntent.launchExternalIntent("com.huhx0015.gotherenow", APMainActivity.this);
             }
         });
     }
