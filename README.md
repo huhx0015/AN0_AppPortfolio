@@ -8,7 +8,7 @@ DEVELOPER: huhx0015
 
 ## Description
 
-Android Nanodegree | Project 0: An basic launcher application that launches the applications built for the Android Nanodegree program.
+Android Nanodegree | Project 0: App Portfolio: An basic launcher application that launches the applications built for the Android Nanodegree program.
 
 ## Why this Project?
   
